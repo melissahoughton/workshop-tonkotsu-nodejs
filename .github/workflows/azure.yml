@@ -20,7 +20,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-    types: [ created, closed ]
+    types: [ opened, closed ]
 
 env:
   AZURE_WEBAPP_NAME: team2rules    # set this to your application's name
